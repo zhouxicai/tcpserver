@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="common\net">
+      <UniqueIdentifier>{2a2421c7-c71c-4493-aaf8-252ad8285d6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\time">
+      <UniqueIdentifier>{43d03b81-f973-446a-acb6-96f6014ae8fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\database">
+      <UniqueIdentifier>{78cb9259-24b7-4374-9b95-538f23d5d852}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\tinyxml">
+      <UniqueIdentifier>{79ce0843-8ed2-4941-9ac7-52f768d6af0c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\ConfigFileManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ItemConfigManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LoginPlayer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LoginServer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\net\CloudServerManager.cpp">
+      <Filter>common\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\net\CloudSocket.cpp">
+      <Filter>common\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\time\TimeTool.cpp">
+      <Filter>common\time</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\time\TimeValue.cpp">
+      <Filter>common\time</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\database\MySQLInterface.cpp">
+      <Filter>common\database</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\tiny_xml\tinyxml2.cpp">
+      <Filter>common\tinyxml</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\ConfigFileManager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ItemConfigManager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LoginPlayer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\net\CloudServerManager.h">
+      <Filter>common\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\net\CloudSocket.h">
+      <Filter>common\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\net\net_protocol_command.h">
+      <Filter>common\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\net\net_protocol_game.h">
+      <Filter>common\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\net\net_protocol_login.h">
+      <Filter>common\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\time\TimeTool.h">
+      <Filter>common\time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\time\TimeValue.h">
+      <Filter>common\time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\database\MySQLInterface.h">
+      <Filter>common\database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\constdefines.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\stdafx.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\tiny_xml\tinyxml2.h">
+      <Filter>common\tinyxml</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\src\Makefile">
+      <Filter>src</Filter>
+    </None>
+  </ItemGroup>
+</Project>
